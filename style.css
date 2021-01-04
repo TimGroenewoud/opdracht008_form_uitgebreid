@@ -1,0 +1,61 @@
+main {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #ccc22f;
+    padding: 10px;
+  }
+
+input{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+label{
+    
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 200px;
+        text-align: right;
+        padding: 5px 10px;
+      
+  }
+
+input [type=radio], input [type=checkbox] {
+    height: 16px;
+    width: 16px;
+    margin-left: 32px;
+}
+
+}
+
+textarea {
+    width: 25%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+ input[type=submit] {
+    background-color:#ccc22f;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+
+  input[type=reset] {
+    background-color: #e2369d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 2px 2px;
+    cursor: pointer;
+    

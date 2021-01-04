@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Invulformulier </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam|Poppins">
+</head>
+
+<body>
+
+    <main>
+
+        <form name="contact-formulier" method="POST" data-netlify="true">
+            <div>
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" id="voornaam" name="Voornaam">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="phone">Telefoonnummer:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <label for="age">Leeftijd:</label>
+                <input type="text" id="age" name="leeftijd">
+            </div>
+            <div>
+                <label for="date">Geboortedatum</label>
+                <input type="date" id="date" name="age">
+            </div>
+            <div>
+                <label for="">Gender:</label><br>
+                <input type="radio" id="male" value="man" name="man">
+                <label for="male">Man</label>
+                <input type="radio" id="woman" value="woman" name="woman">
+                <label for="woman">Vrouw</label>
+                <input type="radio" id="other" value="other" name="other">
+                <label for="other">Anders</label>
+            </div>
+            <div>
+                <label for="">Favoriete Cuisine:</label><br>
+                <input type="checkbox" id="frans" value="frans" name="frans">
+                <label for="frans">Franse keuken</label>
+                <input type="checkbox" id="italiaans" value="italiaans" name="italiaans">
+                <label for="frans">Italiaanse keuken</label>
+                <input type="checkbox" id="spaans" value="spaans" name="spaans">
+                <label for="frans">Spaanse keuken</label>
+                <input type="checkbox" id="arabisch" value="arabisch" name="arabisch">
+                <label for="frans">Arabische keuken</label>
+            </div>
+            <div>
+                <label for="fav-color">Favoriete kleur van short:</label>
+                <input type="color" id="fav-color" name="fav-color">
+            </div>
+            <div>
+                <label for="bio">Vertel iets over jezelf:</label>
+                <textarea name="bio" id="bio" cols="20" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="file">Upload laatste recept:</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div>
+                <label for="web-url">Website:</label>
+                <input type="url" id="web-url" name="web-url">
+            </div>
+            <div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Verzend">
+            </div>
+
+        </form>
+
+
+    </main>
+
+
+</body>
